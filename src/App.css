@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+a {color:rgba(0, 0, 0, 0);}         /* Unvisited link  */
+a:visited {color: rgba(0, 0, 0, 0);} /* Visited link    */
+a:hover {color:rgba(0, 0, 0, 0);}   /* Mouse over link */
+a:active {color:rgba(0, 0, 0, 0);}  /* Selected link   */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
